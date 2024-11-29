@@ -1,0 +1,43 @@
+/* General table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+    border: 1px solid #000000;
+    border-style: dashed;
+}
+
+/* Table header styles */
+th {
+    background-color: #0dfc15;
+    padding: 12px;
+}
+
+th:nth-of-type(1){
+    width: 25%;
+}
+th:nth-of-type(-1){
+    width: 40%;
+}
+/* Table body styles */
+td {
+    padding: 12px;
+    
+}
+
+/* Hover effect for rows */
+tr:hover {
+    background-color: #13d99a;
+    color: rgb(0, 0, 0);
+}
+
+
+/* Responsive table - hide overflow */
+@media (max-width: 600px) {
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+}

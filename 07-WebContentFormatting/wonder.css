@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    background-color: rgb(0, 216, 11);
+    color: antiquewhite;
+}
+
+
+
+table {
+    border: 2px black solid;
+}
+td,th{
+    padding: 2px;
+    border: 2px black solid;
+    
+}
+
+input, select,textarea {
+    width: 50%;
+    margin-bottom: 2px;
+}
+
+input {
+    padding: 2px;
+}
+
+input[type="submit"] {
+    background-color: rgb(138, 255, 127);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1%;
+    width: 50%;
+    align-self: center;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(2, 65, 14);
+    color: wheat;
+}
+
+a{
+    color: green;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(242, 14, 246);
+    text-decoration: none;
+}
+
+p {
+    padding: 5px;
+
+}
